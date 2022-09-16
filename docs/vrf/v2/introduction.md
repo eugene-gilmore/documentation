@@ -46,6 +46,7 @@ Depending on your use case, one method might be more suitable than another. Cons
 - If you have several VRF consuming contracts, choose the subscription method.
 - To reduce gas overhead and have more control over the maximum gas price for requests, choose the Subscription method. Read the [Subscription Method](/docs/vrf/v2/subscription/) and [Direct Funding Method](/docs/vrf/v2/direct-funding/) pages to understand how the transaction costs are calculated.
 - Because the direct funding method has higher overhead, it cannot return as many random words in a single request as the subscription method. You can compare the maximum number of words per request and per method on the [Subscription supported networks](/docs/vrf/v2/subscription/supported-networks/#configurations) and [Direct Funding supported networks](/docs/vrf/v2/direct-funding/supported-networks/#configurations) pages.
+- If you want to transfer the cost of VRF to the end user, the direct funding method may be more suitable as the cost is known and charged at request time.
 
 ## Supported networks
 
@@ -71,7 +72,5 @@ Chainlink VRF v2 is currently available on the following networks:
 - Fantom:
   - Fantom Mainnet
   - Fantom Testnet
-- Klaytn:
-  - Baobab testnet
 
 To learn when VRF v2 becomes available on more networks, follow us on [Twitter](https://twitter.com/chainlink) or sign up for our [mailing list](/docs/developer-communications/).
