@@ -5,12 +5,12 @@ date: Last Modified
 title: "Proof of Reserve Feeds"
 permalink: "docs/data-feeds/proof-of-reserve/"
 whatsnext: {
-  "Learn how to read answers from Data Feeds":"/docs/get-the-latest-price/",
+  "Learn how to read answers from Data Feeds":"/docs/data-feeds/price-feeds/",
   "Find contract addresses for PoR feeds":"/docs/data-feeds/proof-of-reserve/addresses/"
 }
 ---
 
-Chainlink Proof of Reserve Feeds provide the status of the reserves that back several asset tokens on-chain. These feeds operate the same way as other Chainlink Data Feeds. To learn how to use these feeds, see the [Using Data Feeds](/docs/get-the-latest-price/) guide.
+Chainlink Proof of Reserve Feeds provide the status of the reserves that back several asset tokens on-chain. These feeds operate the same way as other Chainlink Data Feeds. To learn how to use these feeds, see the [Using Data Feeds](/docs/data-feeds/price-feeds/) guide.
 
 To find a list of available Proof of Reserve Feeds, see [Proof of Reserve Feed Addresses](/docs/data-feeds/proof-of-reserve/addresses/).
 
